@@ -11,7 +11,6 @@ import {
   } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faRub } from '@fortawesome/free-solid-svg-icons';
 
 
 const About = () => {

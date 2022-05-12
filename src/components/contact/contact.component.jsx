@@ -13,7 +13,7 @@ const Contact = () => {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+      emailjs.sendForm('service_qxjk4uo', 'contact_form', form.current, '1ARBd0KjSbtFZeIjL')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
@@ -28,7 +28,7 @@ const Contact = () => {
                     <h1>Contact</h1>
                     <p>shoot me your digits yo i wanna get paid</p>
                     <div className='contact-form'>
-                        <form>
+                        <form ref={form} onSubmit={sendEmail}>
                             <ul>
                                 <li className='half'>
                                     <input type='text' name='name' placeholder='Name' required />

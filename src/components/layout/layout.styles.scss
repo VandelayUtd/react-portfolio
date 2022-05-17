@@ -16,7 +16,8 @@
     bottom: 0;
     left: 120px;
     font-size: 18px;
-    font-family: 'La Belle Aurore', cursive;}
+    font-family: 'La Belle Aurore', cursive;
+}
 
 .bottom-tag-html { 
     margin-left: -20px;
@@ -38,9 +39,9 @@
 
 }
 
-.about-page,
-.projects-page,
-.contact-page {
+.container.about-page,
+.container.projects-page,
+.container.contact-page {
     .text-zone {
         position: absolute;
         left: 10%; 
@@ -55,34 +56,34 @@
             font-size: 53px;
             font-family: 'ZCOOL XiaoWei' , serif;
             color: #ffd700;
+            margin:0;
+            font-family: 'ZCOOL XiaoWei' , serif;
             font-weight: 400;
-            margin-top: 0;
-            position: relative;
-            margin-bottom: 40px;
-            left: 10px;
+            margin-left: 20px;
 
-            &::before {
-                content: '<h1>';
-                font-family: 'La Belle Aurore';
-                font-size: 18px;
-                position: absolute; 
-                margin-top: -20px;
-                left: -10px;
-                opacity: 0.6;
-                line-height: 18px;
-            }
-
-            &::after { 
-                content: '</h1>';
-                font-family: 'La Belle Aurore';
-                font-size: 18px;
-                position: absolute;
-                line-height: 18px; 
-                left: -30px;
-                bottom: -20px;
-                margin-left: 20px;
-                opacity: 0.6;
-            }
+            // &::before {
+            //     content: '<h1>';
+            //     font-family: 'La Belle Aurore', cursive;
+            //     color: #ffd700;
+            //     font-size: 18px;
+            //     position: absolute;
+            //     margin-top: -40px;
+            //     left: 15px;
+            //     opacity: 0.6;
+            // }
+    
+            // &::after {
+            //     content: '</h1>';
+            //     font-family: 'La Belle Aurore', cursive;
+            //     color:#ffd700;
+            //     font-size: 18px;
+            //     position: absolute;
+            //     margin-top: 18px;
+            //     margin-left: 20px;
+            //     animation: fadeIn 1s 1.7s backwards;
+            //     opacity: 0.6;
+                
+            // }
         }
 
         p {

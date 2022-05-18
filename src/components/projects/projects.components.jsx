@@ -4,21 +4,42 @@ const Projects = () => {
 
     return (
         <div className='container projects-page'>
-            
+            <div className='text-zone'>
+            <h1>Projects</h1>
+
             <ul className='project-list'>
-                <li className='project-link'>
-                    <a href='https://imaginative-meerkat-6aa56a.netlify.app/' rel='noopener noreferrer'  target='_blank' >Suburban Outfitters | Deployed</a>
+
+                <li>
+                    <span>Suburban Outfitters</span>
+                    <p>eCommerce site featuring User Auth, Sign In with Google and Stripe Payment integration</p>
+                    <div className='button-container'>
+                        <a className='flat-button' 
+                            href='https://imaginative-meerkat-6aa56a.netlify.app/' 
+                            rel='noopener noreferrer'  
+                            target='_blank' 
+                        >Deployed</a>                    
+                        <a className='flat-button' 
+                            href='https://github.com/VandelayUtd/suburban-outfitters'  
+                            rel='noopener noreferrer' 
+                            target='_blank'
+                        >Repository</a>
+                    </div> 
                 </li>
                 <li>
-                    <a href='https://github.com/VandelayUtd/suburban-outfitters'  rel='noopener noreferrer' target='_blank'>Suburban Outfitter | Repository</a>
+                    <span>Movie Phone</span>
+                    <a className='flat-button' href='https://github.com/VandelayUtd/movie-phone' rel='noopener noreferrer' target='_blank'>Repository</a>
                 </li>
                 <li>
-                    <a href='https://github.com/VandelayUtd/movie-phone' rel='noopener noreferrer' target='_blank'>Movie Phone | Repository</a>
+                    <span>Rotten Potatoes</span>
+                    <a className='flat-button' href='https://github.com/VandelayUtd/rotten-potatoes' rel='noopener noreferrer' target='_blank'>Repository</a>
                 </li>
                 <li>
-                    <a href='https://github.com/VandelayUtd/rotten-potatoes' rel='noopener noreferrer' target='_blank'>Rotten Potatos | Repository</a>
+                    <span>Monster Rolodex</span>
+                    <a className='flat-button' href='https://github.com/VandelayUtd/monster-rolodex' rel='noopener noreferrer' target='_blank'>Repository</a>
                 </li>
+            
             </ul>
+            </div>
         </div>
     );
 };

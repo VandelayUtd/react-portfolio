@@ -1,4 +1,35 @@
 
-.projects-page { 
-    display: block;
+
+
+li { 
+
+    display: grid;
+    padding: 8px;
+
+    span { 
+        font-family: 'ZCOOL XiaoWei' , serif;
+        text-decoration: none;
+        color: white;
+        font-size: 32px;
+    }
+
+    button-container { 
+
+        justify-content: space-between;
+
+        .flat-button { 
+            color: #ffd700;
+            background: 0 0;
+            
+            font-size: 11px;
+            letter-spacing: 3px;
+            text-decoration: none;
+            // padding: 8px 10px;
+            border: 1px solid #ffd700;
+            float: right;
+            border-radius: 4px;
+        }
+    }
+
 }
+

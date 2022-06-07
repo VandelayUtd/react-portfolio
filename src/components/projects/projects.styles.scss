@@ -5,12 +5,18 @@ li {
 
     display: grid;
     padding: 8px;
+    margin-bottom: 24px;
 
     span { 
         font-family: 'ZCOOL XiaoWei' , serif;
         text-decoration: none;
         color: white;
         font-size: 32px;
+        margin-bottom: -8px;
+    }
+
+    p { 
+        margin-bottom: -8px;
     }
 
     button-container { 

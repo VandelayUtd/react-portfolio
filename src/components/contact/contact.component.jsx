@@ -26,7 +26,7 @@ const Contact = () => {
             <div className='container contact-page'>
                 <div className='text-zone'>
                     <h1>Contact</h1>
-                    <p>shoot me your digits yo i wanna get paid</p>
+                    <p>Please feel free to send an email to drewhadley.dev@gmail.com with the form below</p>
                     <div className='contact-form'>
                         <form ref={form} onSubmit={sendEmail}>
                             <ul>

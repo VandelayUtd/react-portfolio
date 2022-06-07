@@ -10,14 +10,16 @@ const Contact = () => {
 
     const form = useRef();
 
-    const sendEmail = (e) => {
+    const handleSubmit = (e) => {
       e.preventDefault();
   
       emailjs.sendForm('service_qxjk4uo', 'contact_form', form.current, '1ARBd0KjSbtFZeIjL')
         .then((result) => {
-            console.log(result.text);
+            alert('Message successfully sent!')
+            window.location.reload(false)
         }, (error) => {
             console.log(error.text);
+            alert('Failed to send the message, please try again or send directly to drewhadley.dev@gmail.com')
         });
     };
 
@@ -28,7 +30,7 @@ const Contact = () => {
                     <h1>Contact</h1>
                     <p>Please feel free to send an email to drewhadley.dev@gmail.com with the form below</p>
                     <div className='contact-form'>
-                        <form ref={form} onSubmit={sendEmail}>
+                        <form ref={form} onSubmit={handleSubmit}>
                             <ul>
                                 <li className='half'>
                                     <input type='text' name='name' placeholder='Name' required />
@@ -43,7 +45,7 @@ const Contact = () => {
                                     <textarea placeholder='Message' name='message' required ></textarea>
                                 </li>
                                 <li>
-                                    <input type='submit' className='flat-button' value='send' />
+                                    <input type='submit' className='flat-button'  value='SEND' />
                                 </li>
                             </ul>
                         </form>

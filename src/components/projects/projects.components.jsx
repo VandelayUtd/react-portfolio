@@ -26,7 +26,8 @@ const Projects = () => {
                     </div> 
                 </li>
                 <li>
-                    <span>Movie Phone</span>
+                    <span>Film Fax</span>
+                    <p>An application for cinefiles to get quick Film Facts and add or remove films from a watch list</p>
                     <a className='flat-button' href='https://github.com/VandelayUtd/movie-phone' rel='noopener noreferrer' target='_blank'>Repository</a>
                 </li>
                 <li>

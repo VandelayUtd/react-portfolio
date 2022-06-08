@@ -7,6 +7,7 @@
     z-index: 3;
     min-height: 500px;
 
+
     .logo { 
         display: block;
         padding: 8px 0;
@@ -68,7 +69,8 @@
 
          &:first-child {
              &::after {
-                 content: 'HOME'
+                 content: 'HOME';
+                 font-weight: bold;
              }
          }
      }
@@ -76,18 +78,21 @@
      a.about-link {
         &:after {
           content: 'ABOUT';
+          font-weight: bold;
         }
       }
   
       a.contact-link {
         &:after {
           content: 'CONTACT';
+          font-weight: bold;
         }
       }
 
       a.projects-link {
         &:after {
           content: 'CODE';
+          font-weight: bold;
         }
       }
   

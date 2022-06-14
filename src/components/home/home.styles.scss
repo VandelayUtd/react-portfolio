@@ -11,13 +11,16 @@
 
     h1 { 
         color: white;
-        font-size: 53px;
+        font-size: 32px;
         margin:0;
         font-family: 'ZCOOL XiaoWei' , serif;
         font-weight: 400;
         margin-left: 20px;
 
         @media screen and (min-width: 800px) {
+
+            font-size: 53px;
+
             &::before {
                 content: '<h1>';
                 font-family: 'La Belle Aurore', cursive;

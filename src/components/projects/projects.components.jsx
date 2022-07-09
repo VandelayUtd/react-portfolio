@@ -29,14 +29,13 @@ const Projects = () => {
                     <span>Film Fax</span>
                     <p>An application for cinefiles to get quick Film Facts and add or remove films from a watch list</p>
                     <div className='button-container'>
-                            href='https://exquisite-nasturtium-1de152.netlify.app/' 
-                            rel='noopener noreferrer'  
-                            target='_blank' 
-                        >Deployed</a> 
-                    <a className='flat-button' href='https://github.com/VandelayUtd/film-fax' rel='noopener noreferrer' target='_blank'>Repository</a>
-
+                        <a className='flat-button' 
+                                href='https://exquisite-nasturtium-1de152.netlify.app/' 
+                                rel='noopener noreferrer'  
+                                target='_blank' 
+                            >Deployed</a> 
+                        <a className='flat-button' href='https://github.com/VandelayUtd/movie-phone' rel='noopener noreferrer' target='_blank'>Repository</a>
                     </div>
-                    <a className='flat-button' 
                 </li>
                 <li>
                     <span>Rotten Potatoes</span>

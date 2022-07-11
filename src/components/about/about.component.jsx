@@ -21,7 +21,7 @@ const About = () => {
                     <h1>
                         About Me
                     </h1>
-                    <p>I'm a Full Stack developer based out of Brooklyn, New York. Proficient in React, JavaScript, and Ruby on Rails with a zeal for creative problem solving. A problem is just progress that hasn't happened yet.</p>
+                    <p>Full Stack Software Engineer based out of Brooklyn, New York, and recent Flatiron School Grad. Proficient in React, JavaScript, and Ruby on Rails with a zeal for creative problem solving. A problem is just progress that hasn't happened yet.</p>
                     <p>I have over a decade of experience in the music industry as a touring and recording artist along with 2 years of fixing and rebuilding vintage 50cc mopeds, all of which has distilled strong values of collaboration and communication.</p>
                     <p>Code should be easily understood, efficient, fast, and designed with future modifications in mind.</p>
                 </div>

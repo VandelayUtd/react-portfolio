@@ -11,7 +11,7 @@ const Projects = () => {
 
                 <li>
                     <span>Film Fax</span>
-                    <p>An application for cinefiles to get quick Film Facts and add or remove films from a watch list</p>
+                    <p>An application for cinephiles to get quick Film Facts and add or remove films from a watch list</p>
                     <div className='button-container'>
                         <a className='flat-button' 
                                 href='https://exquisite-nasturtium-1de152.netlify.app/' 

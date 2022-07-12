@@ -10,6 +10,18 @@ const Projects = () => {
             <ul className='project-list'>
 
                 <li>
+                    <span>Film Fax</span>
+                    <p>An application for cinefiles to get quick Film Facts and add or remove films from a watch list</p>
+                    <div className='button-container'>
+                        <a className='flat-button' 
+                                href='https://exquisite-nasturtium-1de152.netlify.app/' 
+                                rel='noopener noreferrer'  
+                                target='_blank' 
+                            >Deployed</a> 
+                        <a className='flat-button' href='https://github.com/VandelayUtd/movie-phone' rel='noopener noreferrer' target='_blank'>Repository</a>
+                    </div>
+                </li>
+                <li>
                     <span>Suburban Outfitters</span>
                     <p>eCommerce site featuring User Auth, Sign In with Google and Stripe Payment integration</p>
                     <div className='button-container'>
@@ -24,18 +36,6 @@ const Projects = () => {
                             target='_blank'
                         >Repository</a>
                     </div> 
-                </li>
-                <li>
-                    <span>Film Fax</span>
-                    <p>An application for cinefiles to get quick Film Facts and add or remove films from a watch list</p>
-                    <div className='button-container'>
-                        <a className='flat-button' 
-                                href='https://exquisite-nasturtium-1de152.netlify.app/' 
-                                rel='noopener noreferrer'  
-                                target='_blank' 
-                            >Deployed</a> 
-                        <a className='flat-button' href='https://github.com/VandelayUtd/movie-phone' rel='noopener noreferrer' target='_blank'>Repository</a>
-                    </div>
                 </li>
                 <li>
                     <span>Rotten Potatoes</span>

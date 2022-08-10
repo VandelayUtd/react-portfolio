@@ -21,9 +21,12 @@ const About = () => {
                     <h1>
                         About Me
                     </h1>
-                    <p>Full Stack Software Engineer based out of Brooklyn, New York, and recent Flatiron School Grad. Proficient in React, JavaScript, and Ruby on Rails with a zeal for creative problem solving. A problem is just progress that hasn't happened yet.</p>
-                    <p>I have over a decade of experience in the music industry as a touring and recording artist along with 2 years of fixing and rebuilding vintage 50cc mopeds, all of which has distilled strong values of collaboration and communication.</p>
-                    <p>Code should be easily understood, efficient, fast, and designed with future modifications in mind.</p>
+                    <p>I'm a Full Stack Software Engineer based out of Brooklyn, New York, and a recent Flatiron School Grad. Proficient in React, JavaScript, and Ruby on Rails with a zeal for creative problem solving. A problem is just progress that hasn't happened yet.</p>
+                    <p>
+                        My background ranges from the multi-tiered music industry to working for the CTO of Fox as an assistant. So even before writing my first line of code, past experiences have demanded the mental acumen to quickly assess problems and their possible solutions
+                        while anticipating variables that could more or less interfere.
+                    </p>
+                    <p>I approach problems with joyful tenacity and enthusiastiasm to collaborate and learn with other creative minds.</p>
                 </div>
                 <div className="stage-cube-cont">
                     <div className="cubespinner">

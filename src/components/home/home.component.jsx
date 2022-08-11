@@ -1,15 +1,10 @@
-// import { useState } from 'react';
 import Loader from 'react-loaders';
 import { Link } from 'react-router-dom';
 
-// import AnimatedLetters from '../animated-leters/animated-letters.component'
 
 import './home.styles.scss'; 
 
 const Home = () => {
-    // const [letterClass, setLetterClass] = useState('text-animate')
-    // const nameArray = ['d', 'r', 'e', 'w', ' ', 'h', 'a', 'd', 'l', 'e', 'y']
-    // const jobArray = [ 'f', 'u', 'l', 'l', ' ', 's', 't', 'a', 'c', 'k', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']
 
 
     return(
